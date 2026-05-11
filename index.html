@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Biznes Maktab - обучение бизнесу</title>
+    <meta
+      name="description"
+      content="Красивый бесплатный сайт школы бизнес-обучения: видеоуроки, этапы, FAQ и рабочая заявка."
+    />
+    <link rel="preload" href="assets/business-workshop-hero.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" data-scroll-progress></div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Biznes Maktab">
+        <span class="brand-mark">BM</span>
+        <span class="brand-name">Biznes Maktab</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false" data-menu-button>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" data-nav aria-label="Главная навигация">
+        <a href="#programs">Программы</a>
+        <a href="#videos">Видео</a>
+        <a href="#process">Этапы</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#apply">Оставить заявку</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/business-workshop-hero.png" alt="" />
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-content" data-reveal>
+            <p class="eyebrow">Обучение бизнесу с практикой</p>
+            <h1 id="hero-title">Biznes Maktab</h1>
+            <p class="hero-lead">
+              Бесплатный сайт-школа для тех, кто хочет начать бизнес с нуля,
+              разобраться в продажах, маркетинге и финансах. Видео, этапы и
+              задания собраны в один понятный маршрут.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#videos">Начать бесплатно</a>
+              <a class="button secondary" href="#programs">Посмотреть программы</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Маршрут обучения" data-reveal>
+            <div class="panel-header">
+              <span>Ваш маршрут</span>
+              <strong data-course-count>0 / 6</strong>
+            </div>
+            <div class="mini-progress" aria-hidden="true">
+              <span data-course-progress-fill></span>
+            </div>
+            <ol class="panel-steps">
+              <li>
+                <span>01</span>
+                <div>
+                  <strong data-panel-step-title="0">Посмотреть видео</strong>
+                  <small data-panel-step-text="0">старт, ниша, план</small>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <strong data-panel-step-title="1">Сделать задания</strong>
+                  <small data-panel-step-text="1">оффер, клиенты, цифры</small>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <strong data-panel-step-title="2">Собрать план</strong>
+                  <small data-panel-step-text="2">финальный маршрут запуска</small>
+                </div>
+              </li>
+            </ol>
+            <button class="panel-action" type="button" data-panel-action>Начать с первого урока</button>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section trust-section" aria-label="Показатели">
+        <div class="container trust-grid">
+          <div class="trust-item" data-reveal>
+            <strong data-counter data-target="8">0</strong>
+            <span>недель обучения</span>
+          </div>
+          <div class="trust-item" data-reveal>
+            <strong data-counter data-target="24">0</strong>
+            <span>практических кейса</span>
+          </div>
+          <div class="trust-item" data-reveal>
+            <strong data-counter data-target="4">0</strong>
+            <span>ключевых блока</span>
+          </div>
+          <div class="trust-item" data-reveal>
+            <strong data-counter data-target="90">0</strong>
+            <span>дней плана роста</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-section">
+        <div class="container intro-grid">
+          <div data-reveal>
+            <p class="section-kicker">Зачем</p>
+            <h2>Сайт выглядит спокойно, дорого и сразу объясняет ценность обучения</h2>
+          </div>
+          <div class="intro-copy" data-reveal>
+            <p>
+              На странице есть все, что нужно бесплатной бизнес-школе: первый экран,
+              видеоуроки, этапы обучения, ответы на вопросы и заявка на консультацию.
+            </p>
+            <p>
+              Я сделал поведение живым, но без шума: элементы мягко появляются,
+              кнопки реагируют, видео открываются, форма проверяет поля и показывает
+              аккуратное сообщение.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section programs-section" id="programs" aria-labelledby="programs-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker">Программы</p>
+            <h2 id="programs-title">Три направления под разные этапы бизнеса</h2>
+          </div>
+
+          <div class="program-grid">
+            <article class="program-card featured" data-reveal>
+              <span class="card-label">Для старта</span>
+              <h3>Запуск бизнеса</h3>
+              <p>Проверка идеи, упаковка оффера, первые клиенты и простая экономика.</p>
+              <ul>
+                <li>Анализ ниши</li>
+                <li>Первый оффер</li>
+                <li>План запуска</li>
+              </ul>
+            </article>
+
+            <article class="program-card" data-reveal>
+              <span class="card-label">Для роста</span>
+              <h3>Продажи и маркетинг</h3>
+              <p>Воронка, скрипты, лиды, CRM и понятные показатели продаж.</p>
+              <ul>
+                <li>Карта клиента</li>
+                <li>Скрипты продаж</li>
+                <li>Квартальный план</li>
+              </ul>
+            </article>
+
+            <article class="program-card" data-reveal>
+              <span class="card-label">Для порядка</span>
+              <h3>Финансы и команда</h3>
+              <p>Деньги, маржинальность, роли, KPI и система управления.</p>
+              <ul>
+                <li>Cash flow</li>
+                <li>P&L</li>
+                <li>План роста</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section videos-section" id="videos" aria-labelledby="videos-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker">YouTube-уроки</p>
+            <h2 id="videos-title">Бесплатные видео от самого начала до финального плана</h2>
+            <p>
+              Уроки идут по порядку: сначала идея и ниша, потом план, маркетинг,
+              продажи, финансы и финальный запуск.
+            </p>
+          </div>
+
+          <div class="video-grid">
+            <article class="video-card" data-reveal data-lesson="1" data-youtube-url="https://www.youtube.com/watch?v=79ffGmIYapA">
+              <div class="video-frame">
+                <iframe
+                  id="lesson-player-1"
+                  src="https://www.youtube-nocookie.com/embed/79ffGmIYapA?rel=0&playsinline=1"
+                  title="Бизнес с нуля"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <div class="lesson-lock" aria-hidden="true">
+                  <strong>Урок закрыт</strong>
+                  <span>Сначала завершите предыдущий урок</span>
+                </div>
+              </div>
+              <span class="card-label">Этап 1</span>
+              <h3>С чего начать бизнес</h3>
+              <p>Понять логику старта, не застрять на формальностях и перейти к действиям.</p>
+              <button class="lesson-open" type="button" data-open-lesson>Открыть урок</button>
+              <a class="video-link" href="#apply" data-choose-stage="С чего начать">Выбрать этап</a>
+            </article>
+
+            <article class="video-card" data-reveal data-lesson="2" data-youtube-url="https://www.youtube.com/watch?v=AA7-u1JASeA">
+              <div class="video-frame">
+                <iframe
+                  id="lesson-player-2"
+                  src="https://www.youtube-nocookie.com/embed/AA7-u1JASeA?rel=0&playsinline=1"
+                  title="Выбор ниши"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <div class="lesson-lock" aria-hidden="true">
+                  <strong>Урок закрыт</strong>
+                  <span>Сначала завершите предыдущий урок</span>
+                </div>
+              </div>
+              <span class="card-label">Этап 2</span>
+              <h3>Ниша и первые ошибки</h3>
+              <p>Выбрать направление, проверить спрос и не тратить силы на слабую идею.</p>
+              <button class="lesson-open" type="button" data-open-lesson>Открыть урок</button>
+              <a class="video-link" href="#apply" data-choose-stage="Ниша и идея">Выбрать этап</a>
+            </article>
+
+            <article class="video-card" data-reveal data-lesson="3" data-youtube-url="https://www.youtube.com/watch?v=0cVOCjw8hTo">
+              <div class="video-frame">
+                <iframe
+                  id="lesson-player-3"
+                  src="https://www.youtube-nocookie.com/embed/0cVOCjw8hTo?rel=0&playsinline=1"
+                  title="Бизнес-план"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <div class="lesson-lock" aria-hidden="true">
+                  <strong>Урок закрыт</strong>
+                  <span>Сначала завершите предыдущий урок</span>
+                </div>
+              </div>
+              <span class="card-label">Этап 3</span>
+              <h3>Бизнес-план</h3>
+              <p>Собрать план действий, расходы, цели и понятную картину будущего проекта.</p>
+              <button class="lesson-open" type="button" data-open-lesson>Открыть урок</button>
+              <a class="video-link" href="#apply" data-choose-stage="Бизнес-план">Выбрать этап</a>
+            </article>
+
+            <article class="video-card" data-reveal data-lesson="4" data-youtube-url="https://www.youtube.com/watch?v=2HENa6iieJg">
+              <div class="video-frame">
+                <iframe
+                  id="lesson-player-4"
+                  src="https://www.youtube-nocookie.com/embed/2HENa6iieJg?rel=0&playsinline=1"
+                  title="Маркетинг малого бизнеса"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <div class="lesson-lock" aria-hidden="true">
+                  <strong>Урок закрыт</strong>
+                  <span>Сначала завершите предыдущий урок</span>
+                </div>
+              </div>
+              <span class="card-label">Этап 4</span>
+              <h3>Маркетинг</h3>
+              <p>Понять, где искать клиентов и как продвигаться без большого бюджета.</p>
+              <button class="lesson-open" type="button" data-open-lesson>Открыть урок</button>
+              <a class="video-link" href="#apply" data-choose-stage="Маркетинг">Выбрать этап</a>
+            </article>
+
+            <article class="video-card" data-reveal data-lesson="5" data-youtube-url="https://www.youtube.com/watch?v=VnRZ2z2uIBQ">
+              <div class="video-frame">
+                <iframe
+                  id="lesson-player-5"
+                  src="https://www.youtube-nocookie.com/embed/VnRZ2z2uIBQ?rel=0&playsinline=1"
+                  title="Воронка продаж"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <div class="lesson-lock" aria-hidden="true">
+                  <strong>Урок закрыт</strong>
+                  <span>Сначала завершите предыдущий урок</span>
+                </div>
+              </div>
+              <span class="card-label">Этап 5</span>
+              <h3>Продажи</h3>
+              <p>Построить путь клиента: от первого интереса до заявки и повторного контакта.</p>
+              <button class="lesson-open" type="button" data-open-lesson>Открыть урок</button>
+              <a class="video-link" href="#apply" data-choose-stage="Продажи">Выбрать этап</a>
+            </article>
+
+            <article class="video-card" data-reveal data-lesson="6" data-youtube-url="https://www.youtube.com/watch?v=ORhFkbMDw9Y">
+              <div class="video-frame">
+                <iframe
+                  id="lesson-player-6"
+                  src="https://www.youtube-nocookie.com/embed/ORhFkbMDw9Y?rel=0&playsinline=1"
+                  title="Финансовая грамотность"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <div class="lesson-lock" aria-hidden="true">
+                  <strong>Урок закрыт</strong>
+                  <span>Сначала завершите предыдущий урок</span>
+                </div>
+              </div>
+              <span class="card-label">Этап 6</span>
+              <h3>Финансы</h3>
+              <p>Разобраться с деньгами, расходами, резервом и базовой финансовой дисциплиной.</p>
+              <button class="lesson-open" type="button" data-open-lesson>Открыть урок</button>
+              <a class="video-link" href="#apply" data-choose-stage="Финансы">Выбрать этап</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section" id="process" aria-labelledby="process-title">
+        <div class="container process-layout">
+          <div class="section-heading sticky-heading" data-reveal>
+            <p class="section-kicker">Этапы</p>
+            <h2 id="process-title">Дальше до конца: весь путь по шагам</h2>
+            <p>
+              Можно учиться по всем этапам подряд или переключаться между блоками,
+              если уже есть опыт.
+            </p>
+            <div class="tab-list" role="tablist" aria-label="Направления обучения">
+              <button class="tab-button active" type="button" role="tab" aria-selected="true" data-track="start">
+                Старт
+              </button>
+              <button class="tab-button" type="button" role="tab" aria-selected="false" data-track="sales">
+                Продажи
+              </button>
+              <button class="tab-button" type="button" role="tab" aria-selected="false" data-track="finance">
+                Финансы
+              </button>
+            </div>
+          </div>
+
+          <div class="timeline" data-timeline aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section format-section" aria-labelledby="format-title">
+        <div class="container format-grid">
+          <div data-reveal>
+            <p class="section-kicker">Формат</p>
+            <h2 id="format-title">Подбор темпа за пару секунд</h2>
+            <p>
+              Слайдер показывает подходящую интенсивность. Это маленькая функция,
+              но она делает сайт живым и понятным.
+            </p>
+          </div>
+
+          <div class="calculator" data-reveal>
+            <label for="hoursRange">Часов в неделю</label>
+            <div class="range-row">
+              <input id="hoursRange" type="range" min="3" max="12" value="6" data-hours-range />
+              <output for="hoursRange" data-hours-output>6</output>
+            </div>
+            <div class="recommendation" data-recommendation>
+              Оптимально: 2 занятия, домашняя работа и короткий разбор.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section proof-section" aria-label="Отзывы">
+        <div class="container proof-grid">
+          <figure class="quote-card" data-reveal>
+            <blockquote>
+              Сайт сразу выглядит как серьезная школа: чисто, уверенно, без лишней
+              пестроты и с понятным маршрутом до заявки.
+            </blockquote>
+            <figcaption>Отзыв клиента после первого просмотра</figcaption>
+          </figure>
+          <figure class="quote-card dark" data-reveal>
+            <blockquote>
+              Все основные действия работают: меню, YouTube-видео, вкладки, слайдер,
+              форма и плавные появления при скролле.
+            </blockquote>
+            <figcaption>Проверка функциональности</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="container faq-layout">
+          <div data-reveal>
+            <p class="section-kicker">FAQ</p>
+            <h2 id="faq-title">Частые вопросы</h2>
+          </div>
+          <div class="faq-list" data-reveal>
+            <details open>
+              <summary>Можно ли использовать сайт сразу?</summary>
+              <p>Да. Это обычный статический сайт: HTML, CSS, JavaScript, локальная картинка и YouTube-вставки.</p>
+            </details>
+            <details>
+              <summary>Сайт полностью бесплатный?</summary>
+              <p>Да. На сайте остался только бесплатный учебный маршрут с видео и этапами.</p>
+            </details>
+            <details>
+              <summary>Сайт работает на телефоне?</summary>
+              <p>Да. Есть мобильное меню, адаптивные сетки и размеры, чтобы текст не вылезал из блоков.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section apply-section" id="apply" aria-labelledby="apply-title">
+        <div class="container apply-layout">
+          <div data-reveal>
+            <p class="section-kicker">Заявка</p>
+            <h2 id="apply-title">Оставьте заявку на обучение</h2>
+            <p>
+              Поля проверяются на странице. После отправки появляется аккуратное
+              сообщение, а выбранный этап можно сохранить вместе с заявкой.
+            </p>
+          </div>
+
+          <form class="apply-form" data-apply-form data-reveal novalidate>
+            <label>
+              Имя
+              <input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required />
+            </label>
+            <label>
+              Телефон
+              <input type="tel" name="phone" placeholder="+998 90 000 00 00" autocomplete="tel" required />
+            </label>
+            <label>
+              Этап обучения
+              <select name="stage" data-stage-select required>
+                <option value="">Выберите этап</option>
+                <option>С чего начать</option>
+                <option>Ниша и идея</option>
+                <option>Бизнес-план</option>
+                <option>Маркетинг</option>
+                <option>Продажи</option>
+                <option>Финансы</option>
+              </select>
+            </label>
+            <label>
+              Цель обучения
+              <select name="goal" required>
+                <option value="">Выберите цель</option>
+                <option>Запустить бизнес</option>
+                <option>Увеличить продажи</option>
+                <option>Разобраться с финансами</option>
+                <option>Обучить команду</option>
+              </select>
+            </label>
+            <button class="button primary form-button" type="submit">Отправить заявку</button>
+            <p class="form-note" data-form-note>Ответим в течение рабочего дня.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <button class="back-top" type="button" aria-label="Наверх" data-back-top>↑</button>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>Biznes Maktab</span>
+        <a href="tel:+998900000000">+998 90 000 00 00</a>
+        <a href="mailto:hello@biznesmaktab.uz">hello@biznesmaktab.uz</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
